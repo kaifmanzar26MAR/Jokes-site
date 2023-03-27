@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background:linear-gradient(orange,yellow);
+            background-repeat: no-repeat;
+            min-height: 97.8dvh;
+            min-width: 100;
+            
+            display: grid;
+            place-items: center;
+        }
+        #container{
+            background-color: whitesmoke;
+            height: 20dvh;
+            width: 60dvb;
+            display: grid;
+            place-items: center;
+            border-radius: 30px;
+            border: 4px solid ;
+            text-align: center;
+        }
+        #joke{
+            padding: 20px;
+            display: grid;
+            place-items: center;
+            font-weight: bolder;
+        }
+        button{
+            background-color: yellow;
+            border-radius: 30px;
+            border: 3px solid black
+
+        }
+        #tag{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            /* text-align:end; */
+            border: solid black;
+            width: 200px;
+            position:sticky;
+            top: 96dvh;
+            left:85vw
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="joke" id="joke">Joke is loading....</div>
+        <button class="btn" id="jokeBtn">Next Joke</button>
+    </div>
+    <div id="tag">MD Kaif Manzar</div>
+</body>
+<script src="script.js"></script>
+</html>
